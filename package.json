@@ -1,6 +1,6 @@
 {
-  "name": "simple-send-email",
-  "version": "1.0.0",
+  "name": "simple-send-email-with-mailgun",
+  "version": "1.0.1",
   "description": "A simple module to send email with mailgun from nodejs",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,10 @@
   },
   "homepage": "https://github.com/keithjayce/simple-send-email#readme",
   "dependencies": {
+    "request": "^2.88.2",
+    "simple-claculator": "^1.0.2",
+    "simple-request-http": "^1.0.1",
+    "simple-socketio-extended": "^0.0.2",
+    "smpl-schemas": "^0.0.2"
   }
 }
